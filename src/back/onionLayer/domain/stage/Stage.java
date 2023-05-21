@@ -32,7 +32,11 @@ public class Stage {
 		return resultField;
 	}
 	
-	private static enum EstgObjs implements StageObject{
+	public StageObject[][] getField(){
+		return field;
+	}
+	
+	public static enum EstgObjs implements StageObject{
 		EMPTY,
 		WALL;
 	}

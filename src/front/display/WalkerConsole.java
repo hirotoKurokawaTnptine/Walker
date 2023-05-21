@@ -7,7 +7,7 @@ import java.util.List;
 public class WalkerConsole {
 	private final List<String> elements;
 	
-	public WalkerConsole(int[][] field) {
+	public WalkerConsole(String[][] field) {
 		elements = createStringListOfField(field);
 		
 	}
@@ -24,7 +24,7 @@ public class WalkerConsole {
 	}
 	
 	
-	private List<String> createStringListOfField(int[][] field){
+	private List<String> createStringListOfField(String[][] field){
 		List<String> elements = new ArrayList<>();
 		
 		final String rowSplit = "-";

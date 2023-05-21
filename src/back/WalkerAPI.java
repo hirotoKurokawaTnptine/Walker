@@ -10,4 +10,14 @@ public class WalkerAPI implements API {
 		Arrays.stream(resultField).forEach(line -> Arrays.fill(line, 0));
 		return resultField;
 	}
+	
+	public int[][] findLatestField(){
+		// TODO
+		return null;
+	}
+	
+	public boolean startNewGame() {
+		// TODO
+		return false;
+	}
 }
